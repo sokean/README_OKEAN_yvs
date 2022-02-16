@@ -1,0 +1,30 @@
+# Open Browser Preview
+
+<a href="https://marketplace.visualstudio.com/items?itemName=Wscats.cors-browser"><img src="https://img.shields.io/badge/Download-+-orange" alt="Download" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=Wscats.cors-browser"><img src="https://img.shields.io/badge/Macketplace-v0.0X-brightgreen" alt="Macketplace" /></a>
+<a href="https://github.com/Wscats/browser-preview"><img src="https://img.shields.io/badge/Github Page-Wscats-yellow" alt="Github Page" /></a>
+<a href="https://github.com/Wscats"><img src="https://img.shields.io/badge/Author-Eno Yao-blueviolet" alt="Eno Yao" /></a>
+
+Предварительный просмотр файла в вашем браузере по умолчанию.
+
+# Контекстное меню
+
+Выберите `Предварительный просмотр в браузере по умолчанию` В контекстном меню предварительный просмотр файла в браузере ↓
+
+<!-- ![DEMO](https://github.com/Wscats/browser-preview/raw/master/./assets/2.gif) -->
+![2](https://user-images.githubusercontent.com/17243165/100516702-a106ee80-31c0-11eb-8d85-89b1567810bb.gif)
+
+
+# Команда
+
+1. Нажмите «Ctrl + Shift + P», чтобы открыть список команд.
+2. Выберите `Предварительный просмотр в браузере по умолчанию`.
+
+# Ключевые ключи
+1. Нажмите `Ctrl + F1 в Win или` Cmd + F1 в Mac.
+
+Если вы думаете, что это полезно, вы можете оставить нам [сообщение и понравиться] (https://marketplace.visualstudio.com/marks?itemname=wscats.cors-browser&ssr=false#review-details), ваша поддержка - наша вождениесила😀
+
+# Лицензия
+
+Открытый превью браузера выпускается под[MIT](http://opensource.org/licenses/MIT).

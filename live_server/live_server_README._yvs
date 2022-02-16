@@ -1,0 +1,99 @@
+_[Wanna try [LIVE SERVER++](https://github.com/ritwickdey/vscode-live-server-plus-plus) (BETA) ? It'll enable live changes without saving file.  https://github.com/ritwickdey/vscode-live-server-plus-plus ]_
+
+# Live Server
+
+** Live Server любит ** ** Ваш мульти-root Workspace **
+
+> ** Живой сервер для боковых страниц сервера, как PHP.[Проверьте здесь] (https://github.com/ritwickdey/Live-server-web-extension) **
+
+> *** [для 'Команда не найдена ошибка'[#78](https://github.com/ritwickdey/vscode-live-server/issues/78)]***
+
+[![VSCode Marketplace](https://img.shields.io/vscode-marketplace/v/ritwickdey.LiveServer.svg?style=flat-square&label=vscode%20marketplace)](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) [![Total Installs](https://img.shields.io/vscode-marketplace/d/ritwickdey.LiveServer.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) [![Avarage Rating](https://img.shields.io/vscode-marketplace/r/ritwickdey.LiveServer.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)  
+[![Travis branch](https://img.shields.io/travis/ritwickdey/vscode-live-server/master.svg?style=flat-square&label=travis%20branch)](https://travis-ci.org/ritwickdey/vscode-live-server) [![Appveyor branch](https://img.shields.io/appveyor/ci/ritwickdey/vscode-live-server.svg?style=flat-square&label=appveyor%20branch)](https://ci.appveyor.com/project/ritwickdey/vscode-live-server) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/ritwickdey/vscode-live-server/) 
+<br>
+
+**Запустите локальный сервер развития с помощью Live Releash Fuction для статических и динамических страниц. **
+<br>
+
+![Live Server Demo VSCode](https://github.com/ritwickdey/vscode-live-server/raw/HEAD/images/Screenshot/vscode-live-server-animated-demo.gif)
+
+##Ярлыки для запуска / остановки сервера
+
+**_[NOTE: В случае, если у вас нет ни одного файла «HTML »или` .htm в рабочей области, вы должны следовать методу № 4 и 5, чтобы начать сервер.]_**
+
+1. Откройте проект и нажмите «Go Live» из строки состояния, чтобы включить / выключить сервер.
+![Go Live Control Preview](https://github.com/ritwickdey/vscode-live-server/raw/HEAD/images/Screenshot/vscode-live-server-statusbar-3.jpg)
+
+2. Щелкните правой кнопкой мыши на файл «HTML» из окна Explorer и нажмите «Открыть с помощью Live Server».
+![Explorer Window Control](https://github.com/ritwickdey/vscode-live-server/raw/HEAD/images/Screenshot/vscode-live-server-explorer-menu-demo-1.gif).
+
+3. Open a HTML file and right-click on the editor and  click on `Open with Live Server`.
+![Edit Menu Option Preview](https://github.com/ritwickdey/vscode-live-server/raw/HEAD/images/Screenshot/vscode-live-server-editor-menu-3.jpg)
+
+4. Нажмите `(ALT + L, ALT + O)` Чтобы открыть сервер и `(ALT + L, ALT + C)` Чтобы остановить сервер (вы можете изменить ярлык формы ключа). *[On MAC, `cmd+L, cmd+O` and `cmd+L, cmd+C`]*
+
+5. Откройте палитру команды, нажав «F1» или «Ctrl + Shift + P» и типа «Live Shift + P» и Type «Live Server: открыть с Live Server», чтобы запустить сервер или тип `Live Server: остановить живой сервер, чтобы остановить сервер.
+
+## Функции
+* Быстроразвитие Live Server с Live Browser Reverost.
+* Запустите или остановите сервер одним щелчком мыши от строки состояния.
+* Откройте файл HTML в браузер из меню Explorer.[[Quick Gif Demo](https://github.com/ritwickdey/vscode-live-server/blob/HEAD/images/Screenshot/vscode-live-server-explorer-menu-demo-1.gif?raw=true)].
+* Поддержка для исключения файлов для обнаружения изменения.
+* Ключ для горячего ключа.
+* Настраиваемый номер порта, корню сервера, браузер по умолчанию.
+* Поддержка любого браузера _ (например, Firefox Nightly) _ Использование Advance Command Line.
+* Поддержка вложения Chrome отладки (_[More Info](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)_). [[Quick Gif Demo](https://github.com/ritwickdey/vscode-live-server/blob/HEAD/images/Screenshot/ChromeDebugging.gif?raw=true)].
+* Удаленный подключение через WLAN (E.G.: Connect с Mobile) _ [нужна помощь?См. Раздел FAQ] _
+* Используйте предпочтительное имя хоста * (localhost или 127.0.0.1) *.
+* Настраиваемый вспомогательный тег для живой функции перезагрузки.(По умолчанию - `Тело` или` голова`)
+* Поддержка SVG
+* `https` Поддержка.
+* Поддержка прокси.
+* CORS включен
+* Поддерживается мульти-корневой рабочей области.
+* Поддержка любого файла даже динамические страницы через *[Live Server Web Extension](https://github.com/ritwickdey/live-server-web-extension)*.
+
+## Установка
+Откройте VSCode и тип `Ctrl + p`, тип` Ext Установите ritwickdey.liveserver`.
+
+## Настройки
+Все настройки теперь перечислены здесь [Settings Docs](https://github.com/ritwickdey/vscode-live-server/blob/HEAD/docs/settings.md).
+
+## Часто задаваемые вопросы
+* Все часто задаваемые вопросы теперь перечислены здесь [FAQ Docs](https://github.com/ritwickdey/vscode-live-server/blob/HEAD/docs/faqs.md)*
+
+## Какие новости?
+
+
+* ### Version 5.6.1 (17.04.19)
+  * Фиксированный `Удлинительный хост заканчивается неожиданно` *[[#431](https://github.com/ritwickdey/vscode-live-server/issues/431)]*
+
+* ### Version 5.6.0 (17.04.19)
+  * ***[NEW]*** Intregation of `Browser Preview` with `Live Server` *[[#352](https://github.com/ritwickdey/vscode-live-server/pull/352) - Thanks to [Kenneth Auchenberg](https://github.com/auchenberg)]*
+  * ***[NEW]*** Fallback to random port If given port is busy. *[[#330](https://github.com/ritwickdey/vscode-live-server/pull/330) - Thanks to [Ali Almohaya](https://github.com/Almo7aya) ]*
+  * ***[FIXES]***  Moved to `vscode-chokidar` lib for *[#285](https://github.com/ritwickdey/vscode-live-server/issues/285)*.
+  * Doc Fixes  *[[#388](https://github.com/ritwickdey/vscode-live-server/pull/388) - Thanks to [Ted Silbernagel](https://github.com/tedsilb)]*
+
+
+* ### Version 5.5.1 (12.02.19)
+  * ***[Fixes]***  Fixed `Extension host terminated unexpectedly` for MacOS. [[#285](https://github.com/ritwickdey/vscode-live-server/issues/285)]
+  
+* ### Version 5.5.0 (12.02.19)
+  * ***[Fixes]*** Fixed `ignoreFiles` settings [[#255](https://github.com/ritwickdey/vscode-live-server/issues/255)]
+  * Attempt to fix `high cpu load` [[#278](https://github.com/ritwickdey/vscode-live-server/issues/278)]
+
+
+
+## Changelog
+To check full changelog [click here](https://github.com/ritwickdey/vscode-live-server/blob/HEAD/CHANGELOG.md).
+
+
+## Special Thanks To Maintainers
+A special thanks to [Max Schmitt](https://github.com/mxschmitt), [Joydip Roy](https://github.com/rjoydip) & [Ayo Adesugba](https://github.com/adesugbaa) for contributing their valueable time on this project.
+
+[![Max Schmitt](https://avatars2.githubusercontent.com/u/17984549?s=64)](https://github.com/mxschmitt)
+[![Joydip Roy](https://avatars2.githubusercontent.com/u/15318294?s=64)](https://github.com/rjoydip)
+[![Ayo Adesugba](https://avatars2.githubusercontent.com/u/55943?s=64)](https://github.com/adesugbaa)
+
+## LICENSE
+This extension is licensed under the [MIT License](https://github.com/ritwickdey/vscode-live-server/blob/HEAD/LICENSE)
