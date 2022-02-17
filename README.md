@@ -22,3 +22,4 @@ README.me на тот, который взял на замену.
     отладчик для Chrome
     Открыть предварительный просмотр в браузере
     vscode-google-translate=1.4.13
+tttttttttttttttttttttttttttttttttttttttttttttttttt
